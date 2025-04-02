@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd724b23aa4910d559a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "px4_remap",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_remap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_remap-333cd34a317788264dba.json",
+					"name" : "gps_remap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_remap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_remap-891844c37caffb17535a.json",
+					"name" : "imu_remap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_remap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_remap-cf67eab8612eb335a3c7.json",
+					"name" : "lidar_remap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_remap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_remap-d89620c816a62aba4658.json",
+					"name" : "odometry_remap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_remap_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_remap_uninstall-5b767e8da93315947ae2.json",
+					"name" : "px4_remap_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c264de7dba0f3785eae2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/avalor/ros2_ws/src/px4_remap/build/px4_remap",
+		"source" : "/home/avalor/ros2_ws/src/px4_remap"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

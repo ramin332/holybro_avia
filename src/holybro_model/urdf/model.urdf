@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<robot name="holybro">
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/NXP-HGD-CF.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Base Links -->
+  <link name="base_0_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Base.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="base_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Base.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="base_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Base.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="base_3_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Base.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <!-- Bell Links -->
+  <link name="bell_0_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Bell.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="bell_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Bell.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="bell_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Bell.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="bell_3_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/5010Bell.dae" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <!-- Rotor Links -->
+  <link name="rotor_0_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/1345_prop_ccw_center.stl" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="rotor_1_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/1345_prop_ccw_center.stl" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="rotor_2_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/1345_prop_ccw_center.stl" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="rotor_3_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://holybro_model/meshes/1345_prop_ccw_center.stl" scale="0.846 0.846 0.846"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <!-- IMU Link -->
+  <link name="imu_link"/>
+
+  <!-- GPS Base Link -->
+  <link name="gps_base_link">
+    <visual>
+      <origin xyz="0.0 0.0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.005"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <!-- GPS Link -->
+  <link name="gps_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.01" radius="0.02"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <!-- Base Joints -->
+  <joint name="base_0_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_0_link"/>
+    <origin xyz="0.174 -0.174 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="base_1_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_1_link"/>
+    <origin xyz="-0.174 0.174 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="base_2_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_2_link"/>
+    <origin xyz="0.174 0.174 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="base_3_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_3_link"/>
+    <origin xyz="-0.174 -0.174 0.00" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  
+  <!-- Bell Joints -->
+  <joint name="bell_0_joint" type="fixed">
+    <parent link="base_0_link"/>
+    <child link="bell_0_link"/>
+    <origin xyz="0.00 0.00 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="bell_1_joint" type="fixed">
+    <parent link="base_1_link"/>
+    <child link="bell_1_link"/>
+    <origin xyz="0.00 0.00 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="bell_2_joint" type="fixed">
+    <parent link="base_2_link"/>
+    <child link="bell_2_link"/>
+    <origin xyz="0.00 0.00 0.00" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="bell_3_joint" type="fixed">
+    <parent link="base_3_link"/>
+    <child link="bell_3_link"/>
+    <origin xyz="0.00 0.00 0.00" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- Rotor Joints -->
+  <joint name="rotor_0_joint" type="continuous">
+    <parent link="bell_0_link"/>
+    <child link="rotor_0_link"/>
+    <origin xyz="0.00 0.00 0.018" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="rotor_1_joint" type="continuous">
+    <parent link="bell_1_link"/>
+    <child link="rotor_1_link"/>
+    <origin xyz="0.00 0.00 0.018" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="rotor_2_joint" type="continuous">
+    <parent link="bell_2_link"/>
+    <child link="rotor_2_link"/>
+    <origin xyz="0.00 0.00 0.018" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="rotor_3_joint" type="continuous">
+    <parent link="bell_3_link"/>
+    <child link="rotor_3_link"/>
+    <origin xyz="0.00 0.00 0.018" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Imu Joints -->
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0.00 0.00 0.02" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- GPS Base Joints -->
+  <joint name="gps_base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gps_base_link"/>
+    <origin xyz="-0.03 -0.05 0.00" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- GPS  Joints -->
+  <joint name="gps_joint" type="fixed">
+    <parent link="gps_base_link"/>
+    <child link="gps_link"/>
+    <origin xyz="0.00 0.00 0.1" rpy="0 0 0"/>
+  </joint>
+</robot>
+

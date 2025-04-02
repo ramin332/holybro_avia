@@ -1,0 +1,32 @@
+# Ignore all bag files by default
+*.bag
+*.bag.active
+
+# Ignore bag-related metadata and log files
+*.bag.metadata
+*.orig.bag
+*.old.bag
+*.db3
+
+# Ignore specific ROS-related directories
+rosbags/
+bags/
+logs/
+.baginfo/
+
+# Ignore any temporary or backup files
+*.tmp
+*.swp
+*.bak
+*~
+
+# If you want to include specific bags, use an exception rule
+# For example, include only bags in a specific folder
+# !important_bags/*.bag
+
+# Optional: Ignore large files (over 100 MB)
+*.bag.[0-9][0-9][0-9]
+
+# Optional: Ignore any uncompressed or test bags
+test_*.bag
+uncompressed_*.bag

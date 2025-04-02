@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found px4_msgs: 2.0.1 (/home/avalor/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/avalor/ros2_ws/src/px4_remap/build/px4_remap
+[ 12%] [32mBuilding CXX object CMakeFiles/imu_remap.dir/src/imu_remap.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable imu_remap[0m
+[ 25%] Built target imu_remap
+[ 37%] [32mBuilding CXX object CMakeFiles/lidar_remap.dir/src/lidar_remap.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable lidar_remap[0m
+[ 50%] Built target lidar_remap
+[ 62%] [32mBuilding CXX object CMakeFiles/odometry_remap.dir/src/odometry_remap.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable odometry_remap[0m
+[ 75%] Built target odometry_remap
+[ 87%] [32mBuilding CXX object CMakeFiles/gps_remap.dir/src/gps_remap.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gps_remap[0m
+[100%] Built target gps_remap
+-- Install configuration: ""
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/imu_remap
+-- Set runtime path of "/home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/imu_remap" to ""
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/gps_remap
+-- Set runtime path of "/home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/gps_remap" to ""
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/odometry_remap
+-- Set runtime path of "/home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/odometry_remap" to ""
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/lidar_remap
+-- Set runtime path of "/home/avalor/ros2_ws/src/px4_remap/install/px4_remap/lib/px4_remap/lidar_remap" to ""
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/launch
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/launch/remap_imu.launch.py
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/launch/remap.launch.py
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/launch/remap_launch.xml
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/ament_index/resource_index/package_run_dependencies/px4_remap
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/ament_index/resource_index/parent_prefix_path/px4_remap
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/environment/ament_prefix_path.sh
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/environment/ament_prefix_path.dsv
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/environment/path.sh
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/environment/path.dsv
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/local_setup.bash
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/local_setup.sh
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/local_setup.zsh
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/local_setup.dsv
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/package.dsv
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/ament_index/resource_index/packages/px4_remap
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/cmake/px4_remapConfig.cmake
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/cmake/px4_remapConfig-version.cmake
+-- Installing: /home/avalor/ros2_ws/src/px4_remap/install/px4_remap/share/px4_remap/package.xml

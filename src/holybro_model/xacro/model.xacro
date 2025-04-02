@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="my_robot">
+  
+  <!-- Load the URDF file -->
+  <xacro:include filename="$(find holybro_model)/urdf/x500_base/model.urdf"/>
+
+</robot>
+

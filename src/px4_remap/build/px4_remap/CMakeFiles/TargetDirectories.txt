@@ -1,0 +1,13 @@
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/uninstall.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/px4_remap_uninstall.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/imu_remap.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/gps_remap.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/odometry_remap.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/lidar_remap.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/test.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/edit_cache.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/rebuild_cache.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/list_install_components.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/install.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/install/local.dir
+/home/avalor/ros2_ws/src/px4_remap/build/px4_remap/CMakeFiles/install/strip.dir

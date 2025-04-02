@@ -1,0 +1,33 @@
+{
+    "hub_config": {
+        "broadcast_code": "13UUG1R00400170",
+        "enable_connect": false,
+        "coordinate": 0
+    },
+    "lidar_config": [
+        {
+            "broadcast_code": "3JEDM9D0013U051",
+            "enable_fan": true,
+            "return_mode": 0,
+            "imu_rate": 1
+        },
+        {
+            "broadcast_code": "3JEDM9D0013U051",
+            "enable_fan": true,
+            "return_mode": 0,
+            "imu_rate": 1
+        },
+        {
+            "broadcast_code": "3JEDM9D0013U051",
+            "enable_fan": true,
+            "return_mode": 0,
+            "imu_rate": 1
+        },
+        {
+            "broadcast_code": "3JEDM9D0013U051",
+            "enable_fan": true,
+            "return_mode": 0,
+            "imu_rate": 1
+        }
+    ]
+}
