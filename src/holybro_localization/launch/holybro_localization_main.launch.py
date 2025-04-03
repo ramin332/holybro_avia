@@ -113,7 +113,7 @@ def generate_launch_description():
         # map and odom should be fixed
         static_transfer_1,
         # Start RViz
-        rviz_node,
+        # rviz_node,
 
         # Start RViz Satellite
         # rviz_satellite_node,

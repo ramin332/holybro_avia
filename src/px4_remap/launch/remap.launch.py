@@ -21,7 +21,7 @@ def generate_launch_description():
             name='odometry_remap',
             output='screen'
         ),
-             Node(
+        Node(
             package='px4_remap',
             executable='lidar_remap',
             name='lidar_remap',

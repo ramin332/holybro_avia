@@ -1,0 +1,6 @@
+/install/
+/log/
+/build/
+*/build
+*/devel
+*/log
