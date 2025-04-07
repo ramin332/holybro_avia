@@ -1,0 +1,4 @@
+source;share/holybro_prep/local_setup.bash
+source;share/holybro_prep/local_setup.dsv
+source;share/holybro_prep/local_setup.sh
+source;share/holybro_prep/local_setup.zsh

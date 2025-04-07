@@ -14,19 +14,22 @@ def generate_launch_description():
     with open(urdfModelPath,'r') as infp:
     	robot_desc = infp.read()
     
-    params = {'robot_description': robot_desc}
+    # params = {'robot_description': robot_desc}
     
-    robot_state_publisher_node =launch_ros.actions.Node(
-    package='robot_state_publisher',
-	executable='robot_state_publisher',
-    output='screen',
-    parameters=[params])
-    
+    robot_state_publisher_node = launch_ros.actions.Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': True}, {'robot_description': robot_desc}]
+    )
+
     joint_state_publisher_node = launch_ros.actions.Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
         name='joint_state_publisher',
-        output='screen'
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+
     )
 
     rviz_node = launch_ros.actions.Node(

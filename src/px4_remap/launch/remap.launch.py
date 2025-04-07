@@ -7,24 +7,28 @@ def generate_launch_description():
             package='px4_remap',
             executable='imu_remap',
             name='imu_remap',
-            output='screen'
+            output='screen',
+            parameters=[{'use_sim_time': True}]
         ),
         Node(
             package='px4_remap',
             executable='gps_remap',
             name='gps_remap',
-            output='screen'
+            output='screen',
+            parameters=[{'use_sim_time': True}]
         ),
         Node(
             package='px4_remap',
             executable='odometry_remap',
             name='odometry_remap',
-            output='screen'
+            output='screen',
+            parameters=[{'use_sim_time': True}]
         ),
         Node(
             package='px4_remap',
             executable='lidar_remap',
             name='lidar_remap',
-            output='screen'
+            output='screen',
+            parameters=[{'use_sim_time': True}]
         ),
     ])

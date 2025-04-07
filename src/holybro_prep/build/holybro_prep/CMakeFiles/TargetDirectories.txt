@@ -1,0 +1,9 @@
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/uninstall.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/holybro_prep_uninstall.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/test.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/edit_cache.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/rebuild_cache.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/list_install_components.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/install.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/install/local.dir
+/home/avalor/holybro_avia/src/holybro_prep/build/holybro_prep/CMakeFiles/install/strip.dir

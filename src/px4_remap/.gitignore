@@ -1,8 +1,7 @@
-## mac OS Specific rule
+*/install## mac OS Specific rule
 .DS_Store
 /install/
 /log/
-/build/
 */build
 */devel
 */log
@@ -248,4 +247,3 @@ align_est_gt/
 # CLion build files
 cmake-build-*
 .idea
-livox_ros2_avia/install/_local_setup_util_ps1.py

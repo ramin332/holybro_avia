@@ -247,4 +247,4 @@ align_est_gt/
 # CLion build files
 cmake-build-*
 .idea
-livox_ros2_avia/install/_local_setup_util_ps1.py
+livox_ros2_avia/install/*
