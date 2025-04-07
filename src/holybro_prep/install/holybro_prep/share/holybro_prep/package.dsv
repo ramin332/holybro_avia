@@ -1,8 +1,0 @@
-source;share/holybro_prep/hook/cmake_prefix_path.ps1
-source;share/holybro_prep/hook/cmake_prefix_path.dsv
-source;share/holybro_prep/hook/cmake_prefix_path.sh
-source;share/holybro_prep/local_setup.bash
-source;share/holybro_prep/local_setup.dsv
-source;share/holybro_prep/local_setup.ps1
-source;share/holybro_prep/local_setup.sh
-source;share/holybro_prep/local_setup.zsh
