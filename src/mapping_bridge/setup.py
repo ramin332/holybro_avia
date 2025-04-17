@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='avalor',
     maintainer_email='youremail@example.com',
-    description='TODO: Package description',
+    description='Bridge UDP messages to ROS 2 service',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={

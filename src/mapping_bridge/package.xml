@@ -3,8 +3,8 @@
 <package format="3">
   <name>mapping_bridge</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="youremail@example.com">avalor</maintainer>
+  <description>Bridge UDP messages to ROS 2 service</description>
+  <maintainer email="toine@avalor.ai">avalor</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
